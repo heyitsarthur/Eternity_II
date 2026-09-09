@@ -15,7 +15,7 @@ public class Main {
 		////////////////////////// read txt file with pieces //////////////////////////////////
 		
 		int num_lines=0;
-		File myObj= new File ("src\\16x16 pieces.txt");
+		File myObj= new File ("16x16 pieces.txt");
 		Scanner reader= new Scanner (myObj);
 		reader.nextLine();
 		reader.nextLine();
